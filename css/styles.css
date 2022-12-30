@@ -62,6 +62,7 @@ ol {
 
 .footer > .container {
   display: flex;
+  align-items: center;
 }
 
 .container-portfolio {
