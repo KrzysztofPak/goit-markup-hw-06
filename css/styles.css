@@ -199,7 +199,7 @@ img {
   align-items: center;
 }
 
-.slider h1 {
+.slider .header-1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
