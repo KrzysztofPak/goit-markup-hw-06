@@ -972,7 +972,7 @@ ol {
   line-height: 23px;
   color: #212121;
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .field-name-form {
@@ -1000,7 +1000,7 @@ ol {
 }
 
 .form-field:focus + svg {
-  fill: var(--primary-color);
+  fill: var(--main-color);
   transition: border-color var(--transition-set);
 }
 
