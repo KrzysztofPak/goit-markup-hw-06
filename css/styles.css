@@ -894,6 +894,7 @@ textarea {
 }
 
 .checkbox-not-checked {
+  color: var(--primary-color);
   position: absolute;
   transform: translate(0%, -50%);
   top: 0;
