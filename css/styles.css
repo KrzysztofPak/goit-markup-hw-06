@@ -994,10 +994,11 @@ ol {
   border: solid 1px;
   border-radius: 4px;
   border-color: rgba(33, 33, 33, 0.2);
+  padding-left: 40px;
 }
 
 .form-field:focus {
-  border-color: var(--main-color);
+  border-color: var(--main-color) !important;
   outline: none;
 }
 
@@ -1027,7 +1028,7 @@ textarea {
 
 .form-field-comment:hover,
 .form-field-comment:focus {
-  border-color: var(--main-color);
+  border-color: var(--maiin-color);
 }
 
 .icon-form {
@@ -1066,14 +1067,14 @@ textarea {
   opacity: 1;
 }
 
-.checkbox-checked {
+.checkbox-checked{
   position: absolute;
   transform: translate(0%, -50%);
   top: 0;
   left: 0;
   opacity: 0;
   z-index: 1;
-  background-color: var(--main-color);
+  color: var(--main-color);
 }
 
 .checkbox-hidden:checked ~ .checkbox-checked {
@@ -1096,7 +1097,6 @@ textarea {
 }
 
 .button-submit {
-  justify-content: center;
   width: 200px;
   height: 50px;
   background-color: var(--main-color);
