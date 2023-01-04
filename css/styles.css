@@ -1075,7 +1075,8 @@ textarea {
   left: 0;
   opacity: 0;
   z-index: 1;
-  background-color: var(--main-color);
+  background-color: #2196f3;
+  color:#2196f3;
 }
 
 .checkbox-hidden:checked ~ .checkbox-checked {
