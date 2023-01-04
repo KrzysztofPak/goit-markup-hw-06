@@ -789,6 +789,10 @@ img {
   display: block;
 }
 
+.modal-close-btn-x:hover .modal-close-btn {
+  fill: var(--main-color);
+}
+
 .modal-backdrop.is-hidden .modal-box {
   transform: scale(0);
 }
