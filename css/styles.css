@@ -789,8 +789,9 @@ img {
   display: block;
 }
 
-.modal-close-btn-x:hover .modal-close-btn-x {
-  fill: var(--main-color);
+button.modal-close-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .modal-backdrop.is-hidden .modal-box {
