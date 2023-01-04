@@ -21,39 +21,47 @@
     />
   </head>
   <body>
-    <header class="nav-block nav-style container">
-      <nav class="navbar">
-        <ul class="ulist">
-          <li class="logo">
-            <a href="#" class="nav-link"
-              >Web<span class="logo-color">Studio</span></a
-            >
-          </li>
-          <li><a href="#" class="hover studio-visual">Agencja</a></li>
-          <li class="padding-portfolio">
-            <a href="portfolio.html" class="nav-link hover">Portfolio</a>
-          </li>
-          <li><a href="#" class="nav-link hover">Kontakt</a></li>
-        </ul>
-      </nav>
-      <ul class="ulist">
-        <li>
-          <div class="nav-icon">
-            <svg width="16" height="12">
-              <use href="images/icons.svg#icon-envelope"></use>
-            </svg>
-            <a class="icon" href="mailto:info@example.com">info@example.com</a>
-          </div>
-        </li>
-        <li class="padding-tel">
-          <div class="nav-icon">
-            <svg width="10px" height="16px">
-              <use href="images/icons.svg#icon-smartphone"></use>
-            </svg>
-            <a class="icon" href="tel:+48111111111">+48 111 111 111</a>
-          </div>
-        </li>
-      </ul>
+    <header class="header-wrapper">
+      <div class="container">
+        <nav>
+          <a class="logo" href="index.html"
+            >Web<span class="black-studio">Studio</span></a
+          >
+          <ul class="menu">
+            <li>
+              <a class="nav-link trs-link active-nav-link" href="index.html"
+                >Agencja</a
+              >
+            </li>
+            <li>
+              <a class="nav-link trs-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link trs-link" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <aside>
+          <ul class="navigation-contact">
+            <li>
+              <a class="nav-contact" href="mailto:info@devstudio.com">
+                <svg class="contact-icon" width="16" height="12">
+                  <use href="/images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a class="nav-contact" href="tel:+48111111111">
+                <svg class="contact-icon" width="10" height="16">
+                  <use href="/images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +48 111 111 111
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
     </header>
     <main>
       <div class="background-position">
@@ -326,53 +334,51 @@
         </div>
       </section>
     </main>
-    <footer class="footer-background footer-style">
-      <div class="container-footer">
-        <ul class="find-us-placement">
-          <li class="logo footer-list">
-            <a href="#">Web<span class="footer-logo-color">Studio</span></a>
-          </li>
-          <li class="footer-style footer-list">
-            <p class="find-us-style">Dołącz do nas</p>
-          </li>
-        </ul>
-        <address class="address-padding">
-          <ul class="address-style">
-            <div class="find-us-icons">
-              <li class="footer-list">m. Warszawa, Aleje Jerozolimskie 21</li>
-              <li class="find-us-icons-placment footer-list">
-                <div class="find-us-app-icons">
-                  <svg width="20" height="20">
-                    <use href="images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </div>
-                <div class="find-us-app-icons">
-                  <svg width="20" height="20">
-                    <use href="images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </div>
-                <div class="find-us-app-icons">
-                  <svg width="20" height="20">
-                    <use href="images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </div>
-                <div class="find-us-app-icons">
-                  <svg width="20" height="20">
-                    <use href="images/icons.svg#icon-linkedin2"></use>
-                  </svg>
-                </div>
-              </li>
-            </div>
-            <li class="footer-list">
-              <a href="mailto:info@example.com" class="hover"
-                >info@example.com</a
-              >
+    <footer class="footer dark-bg">
+      <div class="container">
+        <div>
+          <a href="index.html" class="logo"
+            >Web<span class="white-studio">Studio</span></a
+          >
+          <address class="address">
+            <span class="footer-adress"
+              ><a href="https://goo.gl/maps/cexEDxkeDW6zovho7" target="_blank"
+                >Warszawa, Aleje Jerozolimskie 21</a
+              ></span
+            >
+            <a class="footer-contact trs-link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+            <a class="footer-contact trs-link" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </address>
+        </div>
+        <div class="footer-joinus-box">
+          <h3 class="footer-joinus-heading">Dołącz do nas</h3>
+          <ul class="footer-social-icons">
+            <li class="footer-social-icon-bg" tabindex="0">
+              <svg class="footer-social-icon-svg" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
             </li>
-            <li class="footer-list">
-              <a href="tel:+48111111111" class="hover">+48 111 111 111</a>
+            <li class="footer-social-icon-bg" tabindex="0">
+              <svg class="footer-social-icon-svg" width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </li>
+            <li class="footer-social-icon-bg" tabindex="0">
+              <svg class="footer-social-icon-svg" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="footer-social-icon-bg" tabindex="0">
+              <svg class="footer-social-icon-svg" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin2"></use>
+              </svg>
             </li>
           </ul>
-        </address>
+        </div>
         <div class="footer-newsletter">
           <h3>Zapisz się do newslettera</h3>
           <form class="sub-box">
@@ -386,7 +392,7 @@
             <button class="button-subscribe" type="submit">
               <span class="sub-button-text">Zapisz się</span>
               <svg class="icon-send-sub" width="24" height="24">
-                <use href="./images/icons.svg#icon-send-sub"></use>
+                <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
           </form>
@@ -412,7 +418,7 @@
             pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
           />
           <svg class="icon-form" width="12" height="12">
-            <use href="./images/icons.svg#icon-name-form"></use>
+            <use href="./images/icons.svg#icon-Vector-2"></use>
           </svg>
 
           <label class="field-name-form">Telefon</label>
@@ -424,7 +430,7 @@
             required
             pattern="[0-9\+\-]{9,15}"
           /><svg class="icon-form" width="12" height="12">
-            <use href="./images/icons.svg#icon-phone-form"></use>
+            <use href="./images/icons.svg#icon-Vector-3"></use>
           </svg>
 
           <label class="field-name-form">Email</label>
@@ -433,7 +439,7 @@
             width="12"
             height="12"
           >
-            <use href="./images/icons.svg#icon-email-form"></use>
+            <use href="./images/icons.svg#icon-Vector-4"></use>
           </svg>
 
           <label class="field-name-form">Komentarz</label>
@@ -453,10 +459,10 @@
                 required
               />
               <svg width="16" height="15" class="checkbox-not-checked">
-                <use href="./images/icons.svg#icon-checkbox"></use>
+                <use href="./images/icons.svg#icon-checkbox-unchecked"></use>
               </svg>
               <svg width="16" height="15" class="checkbox-checked">
-                <use href="./images/icons.svg#icon-check"></use>
+                <use href="./images/icons.svg#icon-checkbox-checked"></use>
               </svg>
             </div>
             <span class="text-privacy-form">
