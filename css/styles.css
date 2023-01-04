@@ -903,7 +903,7 @@ textarea {
 }
 
 .checkbox-checked{
-  fill: var(--primary-color);
+  fill: #212121;
   position: absolute;
   transform: translate(0%, -50%);
   top: 0;
