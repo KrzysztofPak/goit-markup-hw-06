@@ -865,6 +865,7 @@ ol {
 .is-hidden {
   visibility: hidden;
   opacity: 0;
+  transition: opacity 500ms ease, visibility 500ms ease;  
 }
 
 .backdrop {
@@ -885,7 +886,7 @@ ol {
 .modal {
   position: relative;
   width: 528px;
-  height: 581px;
+  height: 600px;
   background-color: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1074,7 +1075,7 @@ textarea {
   left: 0;
   opacity: 0;
   z-index: 1;
-  color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 .checkbox-hidden:checked ~ .checkbox-checked {
