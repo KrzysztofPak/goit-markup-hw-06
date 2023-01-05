@@ -184,6 +184,7 @@ img {
 }
 
 .slider-bg {
+  margin: 0 auto;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -892,7 +893,8 @@ textarea {
 }
 
 .checkbox-hidden {
-  display: none;
+  opacity: 0;
+  position: absolute;
 }
 
 .checkbox-not-checked {
